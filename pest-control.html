@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrgiculture_project_s</title>
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.3.5/css/dataTables.dataTables.min.css">
+  <link rel="stylesheet" href="Style/style.css">
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+
+  <!-- Google Fonts Import: Rubik, Roboto, Yeseva One, Poppins
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Roboto:wght@400;500;700&family=Yeseva+One&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet"> -->
+
+  <!-- Google Fonts Import: Rubik, Roboto, Yeseva One, Poppins, Open Sans, Oswald -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Roboto:wght@400;500;700&family=Yeseva+One&family=Poppins:wght@400;500;700&family=Open+Sans:wght@300;400;700;800&family=Oswald:wght@200;400;700&display=swap"
+    rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+
+  <!-- Navbar Section Start -->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg bg-success">
+      <a class="navbar-brand ms-4 text-light" href="index.html">Agricuture</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-4 gap-3 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="farming-guide.html">Farmimg Guide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="crops-details.html">Crop Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="pest-control.html">Pest Control</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+    <!-- banner section Start -->
+    <div class="banner-section">
+      <div class="row">
+
+        <div class="col-lg-12">
+          <h1 class="text-center mb-4 text-warning">“Essential Information for Modern Agriculture”</h1>
+          <p class="text-center fa-bold mb-4 px-3 text-warning">Agriculture is the science of farming, including growing
+            crops and
+            raising
+            livestock
+            for food, fiber, and fuel, crucial for human civilization, involving everything from traditional methods to
+            high-tech innovations, providing food security, and constantly evolving with new tech like gene editing and
+            precision farming for better yields, sustainability, and market supply. Key areas include crop cultivation
+            (grains, fruits, veggies), animal husbandry, and resource management, with global efforts focusing on
+            efficient, sustainable practices to feed a growing population.
+            Core Aspects of Agriculture
+            Cultivation: Growing food (grains, vegetables, fruits), fibers (cotton), and energy crops (corn for
+            ethanol).
+            Livestock: Raising animals for meat, milk, eggs, and wool.
+            Processing & Distribution: Preparing products for market and getting them to consumers.
+            Sustainability: Balancing production with environmental stewardship.
+            Modern Trends & Innovations
+            Technology: Gene manipulation, hydroponics, drones, and data analytics.
+            Biofuels: Ethanol from corn, biodiesel from soybeans.
+            Efficiency: Increased productivity through technology, synthetic inputs.
+            Challenges: Water pollution, climate change, ensuring food security.
+            Key Players & Resources.
+          </p>
+
+          <div class="btn-banner text-center mb-4">
+            <a href="" class="btn btn-outline-warning">See Farming Guides</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- banner section end -->
+  </section>
+  <!-- Navbar Section End -->
+
+  <!-- Pest Control Section Start -->
+  <section id="pest-control">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-3 mt-5">
+          <h1 class="text-center mt-3 text-success">Pest Control Guides</h1>
+          <p class="px-3 text-center">Pest control guides focus on prevention through cleanliness, sealing entry points,
+            and proper waste management, using methods like Integrated Pest Management that combine physical, chemical,
+            biological strategies to safely identify,monitor,and control pests like insects, rodents, or termites,
+            minimizing pesticide use for a healthy home environment.</p>
+        </div>
+        <div class="col-lg-12">
+          <table class="table" id="myTable">
+            <thead>
+              <tr>
+                <th scope="col">Pest Name</th>
+                <th scope="col">Image</th>
+                <th scope="col">Biological Controls</th>
+                <th scope="col">Orginic Remedines Tips </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Aphids</th>
+                <td><img class="img-fluid pest-img" src="Asset/Image/pest-1.jpg" alt=""></td>
+                <td>Biological pest control uses living organisms (predators, parasites, pathogens) or their natural
+                  mechanisms (predation, parasitism) to manage harmful pests</td>
+                <td>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Predation</li>
+                    <li class="list-group-item">Augmentation</li>
+                    <li class="list-group-item">Pathogens</li>
+                    <li class="list-group-item">Sustainable</li>
+                    <li class="list-group-item">Potential Risks</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Cutworms</th>
+                <td><img class="img-fluid pest-img" src="Asset/Image/pest-2.jpg" alt=""></td>
+                <td>Biological pest control uses living organisms (predators, parasites, pathogens) or their natural
+                  mechanisms (predation, parasitism) to manage harmful pests</td>
+                <td>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Predation</li>
+                    <li class="list-group-item">Augmentation</li>
+                    <li class="list-group-item">Pathogens</li>
+                    <li class="list-group-item">Sustainable</li>
+                    <li class="list-group-item">Potential Risks</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Armyworms</th>
+                <td><img class="img-fluid pest-img" src="Asset/Image/pest-3.jpg" alt=""></td>
+                <td>Biological pest control uses living organisms (predators, parasites, pathogens) or their natural
+                  mechanisms (predation, parasitism) to manage harmful pests</td>
+                <td>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Predation</li>
+                    <li class="list-group-item">Augmentation</li>
+                    <li class="list-group-item">Pathogens</li>
+                    <li class="list-group-item">Sustainable</li>
+                    <li class="list-group-item">Potential Risks</li>
+                  </ul>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Spider Mites</th>
+                <td><img class="img-fluid pest-img" src="Asset/Image/pest-4.jpg" alt=""></td>
+                <td>Biological pest control uses living organisms (predators, parasites, pathogens) or their natural
+                  mechanisms (predation, parasitism) to manage harmful pests</td>
+                <td>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Predation</li>
+                    <li class="list-group-item">Augmentation</li>
+                    <li class="list-group-item">Pathogens</li>
+                    <li class="list-group-item">Sustainable</li>
+                    <li class="list-group-item">Potential Risks</li>
+                  </ul>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Nematodes</th>
+                <td><img class="img-fluid pest-img" src="Asset/Image/pest-8.jpg" alt=""></td>
+                <td>Biological pest control uses living organisms (predators, parasites, pathogens) or their natural
+                  mechanisms (predation, parasitism) to manage harmful pests</td>
+                <td>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Predation</li>
+                    <li class="list-group-item">Augmentation</li>
+                    <li class="list-group-item">Pathogens</li>
+                    <li class="list-group-item">Sustainable</li>
+                    <li class="list-group-item">Potential Risks</li>
+                  </ul>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row"> Weeds</th>
+                <td><img class="img-fluid pest-img" src="Asset/Image/pest-6.jpg" alt=""></td>
+                <td> Biological pest control uses living organisms (predators, parasites, pathogens) or their natural
+                  mechanisms (predation, parasitism) to manage harmful pests</td>
+                <td>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Predation</li>
+                    <li class="list-group-item">Augmentation</li>
+                    <li class="list-group-item">Pathogens</li>
+                    <li class="list-group-item">Sustainable</li>
+                    <li class="list-group-item">Potential Risks</li>
+                  </ul>
+                </td>
+              </tr>
+
+              <tr>
+                <th scope="row">Leaf Miners</th>
+                <td><img class="img-fluid pest-img" src="Asset/Image/pest-7.jpg" alt=""></td>
+                <td>Biological pest control uses living organisms (predators, parasites, pathogens) or their natural
+                  mechanisms (predation, parasitism) to manage harmful pests</td>
+                <td>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Predation</li>
+                    <li class="list-group-item">Augmentation</li>
+                    <li class="list-group-item">Pathogens</li>
+                    <li class="list-group-item">Sustainable</li>
+                    <li class="list-group-item">Potential Risks</li>
+                  </ul>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pest Control Section end -->
+
+
+  <!-- Contact Part start -->
+  <section id="contact" class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h6 class="text-success fw-semibold text-center mt-5">Contact Us</h6>
+          <div class="contact-wrap">
+
+            <form id="form" class="border rounded p-4 mb-5">
+              <div class="mb-2">
+                <label for="exampleInputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                <div id="name-error" class="form-text"></div>
+              </div>
+
+              <div class="mb-2">
+                <label for="exampleInputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="exampleInputAddress">
+                <div id="address-error" class="form-text"></div>
+              </div>
+
+              <div class="mb-2">
+                <label for="exampleInputEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail">
+                <div id="email-error" class="form-text"></div>
+              </div>
+
+              <div class="mb-2">
+                <label for="exampleInputFile" class="form-label">File</label>
+                <input type="file" class="form-control" id="exampleInputFile">
+                <div id="file-error" class="form-text"></div>
+              </div>
+              
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-4">
+          <h6 class="text-success fw-semibold text-center mt-5">With Expert</h6>
+          <div class="expert-wrap border rounded p-4">
+
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="card" style="width: 15rem;  height: 21.5rem; ">
+                  <img src="Asset/Image/mordern-banner.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Name: Masum Prodhan</h6>
+                    <p>Address: Rangpur</p>
+                    <p>Phone:01570236316</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="card" style="width: 15rem; height: 21.5rem;">
+                  <img src="Asset/Image/mordern-banner.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Name: Masum Billah</h6>                    
+                    <p>Mirpur-1 Dhaka</p>
+                    <p>Phone:01870404751</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Part end -->
+  <!-- Bootstrap-CDN -Link -->
+  <script src="Script/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.datatables.net/2.3.5/js/dataTables.min.js"></script>
+  <script src="/Script/main.js"></script>
+</body>
+
+</html>
